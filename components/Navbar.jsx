@@ -7,7 +7,7 @@ const Navbar = async() => {
   const session = await auth()
 
 
-  console.log("session", session)
+
   return (
     <nav className='nav_bar border-b-2 border-black'>
       <Image src="/logo.png" width={200} height={100} alt='logo' />
